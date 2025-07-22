@@ -1,0 +1,36 @@
+.container {
+	max-width: var(--container-width);
+	padding: 0 var(--container-offset);
+	margin: 0 auto;
+}
+
+html, body {
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--body-background);
+	font-size: var(--default-font-size);
+	color: var(--default-text-color);
+}
+
+.title {
+	font-weight: 700;
+	font-size: var(--title-font-size);
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+}
+
+.subtitle {
+	font-family: var(--subtitle-font-size);
+	font-size: 28px;
+}
+
+[id^="sec_"] {
+	scroll-margin-top: 150px;
+}
+
+[id^="sec_team"] {
+	scroll-margin-top: -220px;
+}

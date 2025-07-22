@@ -1,0 +1,43 @@
+.about {
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.about__wrapper {
+}
+
+.about__title {
+	margin-bottom: 40px;
+}
+
+.about__info {
+
+}
+
+.about__subtitle {
+	padding: 50px;
+	background-color: var(--color-subaccent);
+	color: var(--text-color-light);
+	margin-bottom: 40px;
+
+	border-radius: 10px;
+
+	span {
+		font-weight: 900;
+	}
+}
+
+.about__description {
+	max-width: 800px;
+	font-size: 28px;
+	letter-spacing: 0.02em;
+	position: relative;
+
+	&::before {
+		content: '*';
+		position: absolute;
+		top: 0;
+		left: -20px;
+		color: rgb(225, 28, 28);
+	}
+}
