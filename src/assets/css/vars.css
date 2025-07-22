@@ -1,0 +1,39 @@
+:root {
+	--default-font-family: 'Geologica';
+	--second-font-family: 'ZenDots';
+	--default-font-size: var(--text-font-size);
+	--default-text-color: var(--text-color-dark);
+
+	/* Variables */
+
+	--viewport-width: 1440px;
+	--container-offset: 20px;
+	--container-width: var(--viewport-width);
+
+	--text-font-size: 16;
+
+	--button-border-radius: 20px;
+
+	--title-font-size: 48px;
+	--subtitle-font-size: 24px;
+
+	/* Colors */
+
+	--color-viridian: #089B87;
+	--color-mint: #AFF4C6;
+	--color-dark-gray: #212121;
+	--color-almost-white: #E6E6E6;
+
+	--text-color-light: var(--color-almost-white);
+	--text-color-dark: var(--color-dark-gray);
+
+	/* States */
+
+	--color-accent: var(--color-mint);
+	--color-subaccent: var(--color-viridian);
+
+	/* Backgrounds */
+
+	--body-background: var(--color-almost-white);
+	--hero-background: var(--color-dark-gray);
+}

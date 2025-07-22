@@ -1,0 +1,63 @@
+.hero__full-logo {
+	max-width: 512px;
+	margin: 0 auto;
+}
+
+.hero__wrapper {
+
+}
+
+.hero__info {
+
+}
+
+.hero__title {
+	font-family: var(--second-font-family);
+	font-size: 56px;
+	line-height: 110%;
+}
+
+.hero__subtitle {
+	font-size: 32px;
+	margin-bottom: 40px;
+}
+
+.hero__description {
+	max-width: 700px;
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+
+.hero__buttons {
+	display: flex;
+	column-gap: 20px;
+}
+
+.hero__btn {
+	max-width: 350px;
+	width: 100%;
+	padding: 15px 20px;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 120%;
+}
+
+.hero__btn-implementation {
+}
+
+.hero__btn-consultation {
+	border: 2px solid var(--color-almost-white);
+}
+
+@media (hover: hover) {
+	.hero__btn-implementation:hover {
+		opacity: 0.8;
+	}
+
+	.hero__btn-consultation:hover {
+		border-color: transparent;
+		background-color: var(--color-almost-white);
+		color: var(--color-viridian);
+	}
+}

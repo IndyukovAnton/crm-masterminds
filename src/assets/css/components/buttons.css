@@ -1,0 +1,18 @@
+.btn {
+	font-family: inherit;
+
+	display: block;
+	cursor: pointer;
+	border: none;
+	border-radius: var(--button-border-radius);
+	transition: 0.1s 0s ease;
+}
+
+.btn-light {
+	color: var(--text-color-dark);
+	background-color: var(--color-accent);
+}
+.btn-dark {
+	color: var(--text-color-light);
+	background-color: transparent;
+}
