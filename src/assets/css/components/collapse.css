@@ -1,0 +1,13 @@
+.collapse {
+	cursor: pointer;
+}
+
+.collapse-button {}
+
+.collapse-content {
+}
+
+.collapse.open .collapse-content {
+	max-height: fit-content;
+	padding: 15px 0 30px;
+}

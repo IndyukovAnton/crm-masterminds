@@ -20,11 +20,13 @@ body {
 	font-size: var(--title-font-size);
 	letter-spacing: 0.02em;
 	text-transform: uppercase;
+	user-select: none;
 }
 
 .subtitle {
 	font-family: var(--subtitle-font-size);
 	font-size: 28px;
+	user-select: none;
 }
 
 [id^="sec_"] {

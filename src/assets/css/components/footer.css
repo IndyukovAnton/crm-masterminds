@@ -1,0 +1,7 @@
+.footer {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: var(--color-dark-gray);
+	color: var(--color-mint);
+
+}
