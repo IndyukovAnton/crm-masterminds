@@ -3,6 +3,7 @@
 @import url('./components/animations.css');
 @import url('./components/logo.css');
 @import url('./components/buttons.css');
+@import url('./components/collapse.css');
 
 /* Section components */
 @import url('./components/nav.css');
@@ -12,3 +13,5 @@
 @import url('./components/services.css');
 @import url('./components/team.css');
 @import url('./components/suitable.css');
+@import url('./components/bitrix.css');
+@import url('./components/contacts.css');

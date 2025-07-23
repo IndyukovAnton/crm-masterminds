@@ -36,4 +36,5 @@
 
 	--body-background: var(--color-almost-white);
 	--hero-background: var(--color-dark-gray);
+	--bitrix-background: linear-gradient(135deg, #2fc7f7 0%, #409eef 100%);
 }
