@@ -1,14 +1,25 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CRM Masterminds</title>
-	<link rel="icon" href="./src/assets/img/logo.svg" sizes="64x64">
+	<title>CRM Masterminds | CRM для бизнеса в Казахстане</title>
+	<link rel="icon" type="image/svg+xml" href="./src/assets/img/logo.svg">
 	<link rel="stylesheet" href="./src/assets/css/main.css">
+	<meta name="description" content="Автоматизация продаж и управления клиентами с CRM от Masterminds на Битрикс24. Интеграция, обучение и поддержка для бизнеса в Казахстане.">
+	<meta name="keywords" content="Разработка, сайтов, под ключ, на Битрикс24, качественно">
+	<meta property="og:url" content="https://crmmasterminds.kz/">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="crm-masterminds">
+	<meta property="og:description" content="Разработка и интеграция сайтов на Битрикс24">
+	<meta property="og:image:width" content="600">
+	<meta property="og:image:height" content="600">
+	<link rel="canonical" href="https://crmmasterminds.kz/" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-	<nav class="nav" navigation>
+	<nav class="nav" navigation data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000">
 		<div class="container">
 			<div class="nav__wrapper">
 				<ul class="nav__list">
@@ -33,6 +44,9 @@
 					<li class="nav__item">
 						<a href="#sec_contacts" class="nav__link">Контакты</a>
 					</li>
+					<li class="nav__item">
+						<a href="https://b24-g23yas.bitrix24.site/crm_form_vnoc4/" class="nav__link">Получить консультацию</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -40,9 +54,9 @@
 
 	<header id="sec_home" class="header" hero>
 		<section class="hero container">
-				<div class="hero__wrapper">
-					<img class="hero__full-logo hero__full-logo--light" src="./src/assets/img/logo-full-light.svg" alt="full logo">
-					<div class="hero__info">
+				<div class="hero__wrapper" data-aos="zoom-in" data-aos-duration="500">
+					<img class="hero__full-logo hero__full-logo--light" src="./src/assets/img/logo-full-light.svg" alt="Логотип CRM Masterminds">
+					<div class="hero__info" data-aos="zoom-in" data-aos-duration="1000">
 						<h1 class="hero__title">CRM Masterminds —</h1>
 						<p class="hero__subtitle">Официальный Партнёр Bitrix24</p>
 						<p class="hero__description">
@@ -50,8 +64,8 @@
 						</p>
 
 						<div class="hero__buttons">
-							<button class="hero__btn hero__btn-implementation btn btn-light">Заказать внедрение</button>
-							<button class="hero__btn hero__btn-consultation btn btn-dark">Получить консультацию</button>
+							<a href="https://b24-g23yas.bitrix24.site/crm_form_vnoc4/" class="hero__btn hero__btn-implementation btn btn-light">Заказать внедрение</a>
+							<a href="https://b24-g23yas.bitrix24.site/crm_form_vnoc4/" class="hero__btn hero__btn-consultation btn btn-dark">Получить консультацию</a>
 						</div>
 					</div>
 				</div>
@@ -59,7 +73,7 @@
 	</header>
 
 	<main class="main">
-		<section id="sec_about" class="about container">
+		<section id="sec_about" class="about container" data-aos="fade-up">
 			<div class="about__wrapper">
 				<div class="about__title title">О нас</div>
 				<div class="about__info">
@@ -75,7 +89,7 @@
 			</div>
 		</section>
 
-		<section id="sec_services" class="services">
+		<section id="sec_services" class="services" data-aos="fade-up" data-aos-duration="300">
 			<div class="services__wrapper container">
 				<div class="services__title title">Услуги</div>
 				<ul class="services__list">
@@ -91,36 +105,38 @@
 
 		<section id="sec_team" class="team container">
 			<div class="team__wrapper">
-				<div class="team__title title">Наша команда</div>
-				<div class="team__subtitle subtitle">
+				<div class="team__title title" data-aos="fade-up" data-aos-duration="300">Наша команда</div>
+
+				<div class="team__subtitle subtitle" data-aos="fade-up" data-aos-duration="300">
 					<span>Мы</span> — команда экспертов, каждый из которых отвечает за чёткий этап внедрения, разработки и сопровождения
 				</div>
-				<div class="team__list">
+
+				<div class="team__list" data-aos="fade-up" data-aos-duration="300">
 					<div class="team__item">
 						<div class="team__item-title">Аналитик/Менеджер по работе с клиентами</div>
 						<div class="team__item-description">Выявляет ваши бизнес-процессы, потребности и цели. Грамотно составляет КП и ставит задачу в команду</div>
 					</div>
-					<div class="team__item">
+					<div class="team__item" data-aos="fade-up" data-aos-duration="200">
 						<div class="team__item-title">Project-менеджер</div>
 						<div class="team__item-description">Курирует весь проект: сроки, приоритеты, коммуникацию, контроль качества. Делает так, чтобы всё работало</div>
 					</div>
-					<div class="team__item">
+					<div class="team__item" data-aos="fade-up" data-aos-duration="200">
 						<div class="team__item-title">Технический архитектор</div>
 						<div class="team__item-description">Разрабатывает логику, архитектуру решений и планирует интеграции с другими системами</div>
 					</div>
-					<div class="team__item">
+					<div class="team__item" data-aos="fade-up" data-aos-duration="200">
 						<div class="team__item-title">Специалист по внедрению и настройке</div>
 						<div class="team__item-description">Реализует бизнес-логику в CRM, настраивает воронки, автоматизацию, права доступа и интерфейс</div>
 					</div>
-					<div class="team__item">
+					<div class="team__item" data-aos="fade-up" data-aos-duration="200">
 						<div class="team__item-title">Интегратор и API-специалист</div>
 						<div class="team__item-description">Настраивает связку с телефонией, мессенджерами, 1С, сайтом и другими сервисами</div>
 					</div>
-					<div class="team__item">
+					<div class="team__item" data-aos="fade-up" data-aos-duration="200">
 						<div class="team__item-title">Тестировщик</div>
 						<div class="team__item-description">Проверяет систему на ошибки, логические несостыковки, чтобы на выходе всё работало корректно.</div>
 					</div>
-					<div class="team__item">
+					<div class="team__item" data-aos="fade-up" data-aos-duration="200">
 						<div class="team__item-title">Служба поддержки</div>
 						<div class="team__item-description">Оперативно помогает вам после запуска: отвечает, исправляет, консультирует.</div>
 					</div>
@@ -128,12 +144,12 @@
 			</div>
 		</section>
 
-		<section id="sec_suitable" class="suitable">
+		<section id="sec_suitable" class="suitable" data-aos="fade-up" data-aos-duration="300">
 			<div class="suitable__wrapper container">
 				<div class="suitable__title title">Кому мы подходим</div>
 				<div class="suitable__list">
-					<div class="suitable__item">Компаниям, у которых хаос в лидах</div>
-					<div class="suitable__item">Кто устал от Excel и WhatsApp-менеджмента </div>
+					<div class="suitable__item" data-aos="fade-up" data-aos-duration="500">Компаниям, у которых хаос в лидах</div>
+					<div class="suitable__item" data-aos="fade-up" data-aos-duration="1000">Кто устал от Excel и WhatsApp-менеджмента </div>
 				</div>
 			</div>
 		</section>
@@ -148,7 +164,8 @@
 						<path d="M190.353 9.427v1.933h-6.521V9.427h6.521zM134.047 26.011h17.807v-3.945h-11.736c1.62-6.476 11.532-7.891 11.532-15.073 0-3.845-2.631-6.676-8.196-6.676-3.441 0-6.476 1.01-8.497 2.025l1.215 3.64c1.821-.91 3.946-1.72 6.576-1.72 2.025 0 3.946.91 3.946 3.236 0 5.261-11.637 5.666-12.647 18.513zm29.74-6.271v6.271h4.551V19.74h3.845v-3.845h-3.845V.317h-3.341l-12.646 16.388v3.035h11.436zm-6.271-3.64 6.475-8.702c0 .71-.2 2.935-.2 4.956v3.64h-3.036c-.91 0-2.63.101-3.235.101l-.004.004z" fill="#005893"></path>
 					</svg>
 				</div>
-				<div class="bitrix__description">
+
+				<div class="bitrix__description" data-aos="fade-up" data-aos-duration="500">
 					<div class="bitrix__about">
 						<span>Битрикс24</span> — это онлайн-сервис, в котором собраны все нужные инструменты для работы компании и управления бизнесом. Позволяет перенести в единое пространство и автоматизировать все рабочие коммуникации, продажи, проекты и бизнес-процессы.
 					</div>
@@ -157,7 +174,7 @@
 					</div>
 				</div>
 
-				<div class="bitrix__capabilities">
+				<div class="bitrix__capabilities" data-aos="fade-up" data-aos-duration="500">
 					<div class="bitrix__subtitle subtitle">Возможности</div>
 					<ul class="bitrix__capabilities-list">
 						<li class="bitrix__capabilities-item collapse" collapse>
@@ -190,27 +207,25 @@
 						<li class="bitrix__capabilities-item collapse" collapse>
 							<div class="bitrix__capabilities-item-title" collapse-button>Задачи и проекты</div>
 							<div class="bitrix__capabilities-item-content collapse-content" collapse-content>
-								<ul>
-									<li>Задачи</li>
-									<li>Проекты</li>
-									<li>Диаграмма Ганта</li>
-									<li>Канбан</li>
-									<li>Учет времени</li>
-									<li>Обсуждения в задачах</li>
-									<li>Фокусировка внимания</li>
-									<li>Интегрировано с CRM</li>
-								</ul>
+								<p>Задачи</p>
+								<p>Проекты</p>
+								<p>Диаграмма Ганта</p>
+								<p>Канбан</p>
+								<p>Учет времени</p>
+								<p>Обсуждения в задачах</p>
+								<p>Фокусировка внимания</p>
+								<p>Интегрировано с CRM</p>
 							</div>
 						</li>
 						<li class="bitrix__capabilities-item collapse" collapse>
 							<div class="bitrix__capabilities-item-title" collapse-button>Сайты и магазины</div>
 							<div class="bitrix__capabilities-item-content collapse-content" collapse-content>
-									<p>Конструктор сайтов</p>
-									<p>Интернет-магазин</p>
-									<p>Формы</p>
-									<p>Виджеты</p>
-									<p>Интеграция с 1С</p>
-									<p>1500+ шаблонов</p>
+								<p>Конструктор сайтов</p>
+								<p>Интернет-магазин</p>
+								<p>Формы</p>
+								<p>Виджеты</p>
+								<p>Интеграция с 1С</p>
+								<p>1500+ шаблонов</p>
 							</div>
 						</li>
 						<li class="bitrix__capabilities-item collapse" collapse>
@@ -233,7 +248,7 @@
 		</section>
 	</main>
 
-	<footer class="footer">
+	<footer class="footer" data-aos="fade-up" data-aos-duration="300">
 		<div class="footer__wrapper container">
 			<section id="sec_contacts" class="contacts">
 				<div class="contacts__title title">Контакты</div>
@@ -248,10 +263,16 @@
 					<a href="https://yandex.ru/maps/162/almaty/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Алматы</a>
 					<iframe src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=76.915066%2C43.237249&mode=whatshere&whatshere%5Bpoint%5D=76.915066%2C43.237248&whatshere%5Bzoom%5D=17&z=17" width="560" height="400" allowfullscreen="true" style="position:relative;"></iframe>
 				</div>
+				<div class="company__info">
+					<div class="company__info-item copyright">© ИП "CRM MASTERMINDS", 2025. Все права защищены.</div>
+					<div class="company__info-item">ИИН: 010502500618</div>
+				</div>
 			</section>
 		</div>
 	</footer>
 
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script> AOS.init(); </script>
 	<script src="src/assets/js/main.js" type="module"></script>
 </body>
 </html>

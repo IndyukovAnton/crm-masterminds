@@ -4,4 +4,10 @@
 	background-color: var(--color-dark-gray);
 	color: var(--color-mint);
 
+	.company__info {
+		display: flex;
+		justify-content: space-between;
+		gap: 10px;
+		margin-top: 40px;
+	}
 }

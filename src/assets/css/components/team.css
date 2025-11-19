@@ -28,9 +28,7 @@
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 20px;
-
-	cursor: help;
-
+	cursor: pointer;
 	color: #000;
 }
 
@@ -52,4 +50,8 @@
 
 .team__item:hover .team__item-description {
 	border-color:#000;
+}
+
+.team__item:hover .team__item-title {
+	background-color: #5abdff;
 }
